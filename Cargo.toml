@@ -1,0 +1,11 @@
+[package]
+name = "led"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-channel = "2.3.1"
+esp-idf-svc = { version = "0.49.1", default-features = false, features = [
+    "std",
+] }
+rgb = "0.8.44"
